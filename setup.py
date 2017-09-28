@@ -16,7 +16,7 @@ setup(
     long_description='I use this when working with data from xlwings',
     author='James Vogel',
     author_email='jim.m.vogel@gmail.com',
-    url='https://github.com/voglster/tomato_commander',
+    url='https://github.com/voglster/tabular_dataset',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
